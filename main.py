@@ -6,7 +6,8 @@ reddit = praw.Reddit(client_id='09tgNAaa_kchTA',
                      username='Alert-Target-8166',
                      password='poggers', )
 def subspam():
-    misctext = "a"  # customised messages for each subreddit
+    misctext = "a"  # miscellaneous message
+    # customised messages for each subreddit
     textamong = "a"
     textgaming = "a"
     textmobile = "a"
