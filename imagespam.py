@@ -14,9 +14,9 @@ def imageposter():
         subreddits = ["AmongUs", "gaming", "MobileGaming", "Shopping"]
         x = random.randint(0, (len(subreddits)-1))
         subreddit = reddit.subreddit(subreddits[x])
-        titles = ["change this"]  # you must change this to your desired title
+        titles = ["Don’t miss out on the limited edition release of the Crewmate Plushy, limited quantities remaining! Get yours today at Imposterme.com"]  # you must change this to your desired title
         reddit.validate_on_submit = True
-        images = ["C:\\Users\\jhadd\\Pictures\\discord bot.PNG"]  # you must change this to the path on your computer, and use double slashes
+        images = ["C:\\Users\\thein\\Pictures\\snapchatad.jpg"]  # you must change this to the path on your computer, and use double slashes
         subreddit.submit_image(titles[0], images[0])
         print(f'Image posted')
         time.sleep(3600)
